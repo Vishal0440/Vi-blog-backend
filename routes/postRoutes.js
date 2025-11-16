@@ -11,5 +11,5 @@ router.put("/:id", auth, ctrl.upload.single("image"), ctrl.updatePost);
 router.delete("/:id", auth, ctrl.deletePost);
 router.post("/:id/like", auth, ctrl.toggleLike);
 
-// comment endpoints exist in commentRoutes
+// comment endpoints exist in commentRoute
 export default router;
